@@ -1,0 +1,15 @@
+baseURL: "https://example.com/"
+title: "Название"
+theme: "PaperMod"
+languageCode: "ru-ru"
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: false
+  ShowPostNavLinks: true
+  ShowToc: false
+  customCSS:
+    - css/custom.css
