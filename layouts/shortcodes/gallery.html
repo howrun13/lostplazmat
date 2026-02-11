@@ -1,8 +1,8 @@
 <div class="gallery">
-    {{ range .Page.Resources.Match (.Get "src") }} {{ $img := .Resize "1200x
-    webp q85" }}
-    <a href="{{ .RelPermalink }}" target="_blank">
-        <img src="{{ $img.RelPermalink }}" loading="lazy" />
+    {{ $pattern := .Get "src" }} {{ range .Page.Resources.Match $pattern }} {{
+    $img := .Resize "1200x webp q85" }}
+    <a href="{{ $img.RelPermalink }}" target="_blank">
+        <img src="{{ $img.RelPermalink }}" loading="lazy" alt="" />
     </a>
     {{ end }}
 </div>

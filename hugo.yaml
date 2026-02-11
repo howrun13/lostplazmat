@@ -1,7 +1,8 @@
-baseURL: "https://example.com/"
-title: "Название"
+baseURL: "https://howrun13.github.io/lostplazmat/"
+title: "lostplazmat"
 theme: "PaperMod"
 languageCode: "ru-ru"
+publishDir: "docs"
 
 params:
   defaultTheme: auto
