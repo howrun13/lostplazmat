@@ -68,9 +68,11 @@ Provoke не был ориентирован на какое-то конкрет
 
 Вот пример работ:
 
-{{< gallery src="*.png" >}}
+{{ $img := .Page.Resources.GetMatch "daido2.png" }}
+{{ $resized := $img.Resize "1200x webp q85" }}
 
-![daido2.png]
+<img src="{{ $resized.RelPermalink }}" loading="lazy">
+![пример](daido2.pngS)
 
 !(daido3.png)
 
