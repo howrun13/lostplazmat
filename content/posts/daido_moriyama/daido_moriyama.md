@@ -70,7 +70,7 @@ Provoke не был ориентирован на какое-то конкрет
 
 {{< gallery src="*.png" >}}
 
-!(daido2.png)
+![daido2.png]
 
 !(daido3.png)
 
