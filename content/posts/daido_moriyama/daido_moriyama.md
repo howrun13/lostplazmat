@@ -70,20 +70,20 @@ Provoke не был ориентирован на какое-то конкрет
 
 {{< gallery src="*.png" >}}
 
-![[daido2.png]]
+!(daido2.png)
 
-![[daido3.png]]
+!(daido3.png)
 
-![[daido4.png]]
+!(daido4.png)
 
-![[daido5.png]]
+!(daido5.png)
 
-![[daido6.png]]
+!(daido6.png)
 
-![[daido7.png]]
+!(daido7.png)
 
-![[daido8.png]]
+!(daido8.png)
 
-![[daido9.png]]
+!(daido9.png)
 
-![[daido10.png]]
+!(daido10.png)
